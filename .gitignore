@@ -1,0 +1,26 @@
+# 忽略 Keil 输出目录
+Output/
+build/
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.axf
+*.hex
+*.bin
+*.elf
+*.o
+*.obj
+*.dep
+*.lst
+*.map
+
+# 临时和备份文件
+*.bak
+*.tmp
+*.log
+
+# Keil 用户本地配置文件（可以自选）
+*.uvguix.*
+*.uvprojx
+*.uvoptx
